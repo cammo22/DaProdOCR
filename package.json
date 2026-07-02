@@ -1,0 +1,37 @@
+{
+  "name": "daprod-ocr",
+  "version": "1.0.0",
+  "description": "OCR locale con Ollama + libreria documenti stile paperless-ngx",
+  "main": "./out/main/index.js",
+  "private": true,
+  "author": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "build:unpack": "electron-vite build && electron-builder --dir",
+    "build:win": "electron-vite build && electron-builder --win"
+  },
+  "devDependencies": {
+    "@electron-toolkit/eslint-config": "^2.1.0",
+    "@electron-toolkit/tsconfig": "^2.0.0",
+    "@electron-toolkit/utils": "^4.0.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "electron": "^42.5.1",
+    "electron-builder": "^26.15.3",
+    "electron-vite": "^5.0.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.1.200",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
