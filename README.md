@@ -1,5 +1,7 @@
 # DaProdOCR
 
+[![Discord](https://img.shields.io/badge/Discord-DaProd-5865F2?logo=discord&logoColor=white)](https://discord.gg/Njs52aacwq)
+
 App desktop (Electron) per l'OCR locale di documenti scansionati, con motore basato su [Ollama](https://ollama.com) e una libreria dei documenti in stile [paperless-ngx](https://github.com/paperless-ngx/paperless-ngx).
 
 Tutto gira in locale: nessun documento lascia il tuo computer.
